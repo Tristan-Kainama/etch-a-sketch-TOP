@@ -1,8 +1,10 @@
 body {
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     min-height: 100vh;
     background-color: #f0f0f0;
 }
@@ -17,13 +19,11 @@ body {
 }
 
 .grid-square {
-    width: calc(100% / 16);
-    height: calc(100% / 16);
     box-sizing: border-box;
-    border: 1px solid #eee;
     background-color: white;
 }
 
-.grid-square:hover {
-    background-color: gray;
+.canvas-button {
+    font-size: 40px;
+    padding: 15px;
 }
